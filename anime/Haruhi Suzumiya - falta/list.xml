@@ -1,0 +1,48 @@
+﻿<XML encoding="UTF-8" standalone="yes" version="1.0">
+<foros>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>1</cap>
+    <iurl>XXDIERXX/videos/343579066378763</iurl>
+  </anime>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>2</cap>
+    <iurl>XXDIERXX/videos/300703073849075</iurl>
+  </anime>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>3</cap>
+    <iurl>XXDIERXX/videos/166227290974699</iurl>
+  </anime>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>4</cap>
+    <iurl>XXDIERXX/videos/2245248295708928</iurl>
+  </anime>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>5</cap>
+    <iurl>XXDIERXX/videos/2145341492382939</iurl>
+  </anime>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>6</cap>
+    <iurl>1916305528597481/videos/2103931523168213</iurl>
+  </anime>
+
+  <anime>
+    <titulo>Haruhi Suzumiya</titulo>
+    <cap>7</cap>
+    <iurl>197828023970375/videos/2100132233633701</iurl>
+  </anime>
+
+
+</foros>
+</XML>
