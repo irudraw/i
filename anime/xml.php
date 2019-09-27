@@ -11,7 +11,7 @@ header ("content-type: text/xml");
       {
            while (($archivo = readdir($gd)) !== false)
          {
-            if ($archivo != "." & $archivo != ".." & $archivo != "list.php" & $archivo != "Haruhi Suzumiya")
+            if ($archivo != "." & $archivo != ".." & $archivo != "list.php" & $archivo != "Haruhi Suzumiya - falta" & $archivo != "Angel Beats" & $archivo != "Blood c" & $archivo != "School Days" & $archivo != "Trinity Seven")
             {
                if (is_dir($archivo))
                {
