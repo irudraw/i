@@ -104,12 +104,12 @@ html5Lightbox.showItem(href);
   	iurl=foros[i].getElementsByTagName("iurl")[0].childNodes[0].nodeValue
 
   	document.write("<li>");
-  		document.write("<a href='http://zgrafic.com/fembed/?id="+iurl+"&titulo=Capitulo "+cap+"' target='contenedor'>");
+  		document.write("<a href='../fembed/?id="+iurl+"&titulo=Capitulo "+cap+"' target='contenedor'>");
   		document.write("<img src='poster.png' class='ui-li-thumb'  height='100%'>");
   		document.write("<h2>"+titulo+"</h2>");
   		//document.write("<p>Code: "+code+"</p>");
   		document.write("<p class='ui-li-aside'>"+cap+"</p>");
-  		//document.write("<a href='http://zgrafic.com/fembed/?id="+iurl+"' class='html5lightbox' title='"+titulo+"' data-icon='star'>Video Previo</a>");
+  		//document.write("<a href='../fembed/?id="+iurl+"' class='html5lightbox' title='"+titulo+"' data-icon='star'>Video Previo</a>");
   		document.write("</a>");
   	document.write("</li>");
   }
@@ -151,7 +151,7 @@ html5Lightbox.showItem(href);
         var xmlDoc = xml.responseXML;
         var x = xmlDoc.getElementsByTagName('iurl')[0];
         var y = x.childNodes[0];
-        document.getElementById("contenedor").src = 'http://zgrafic.com/fembed/?id='+y.nodeValue+'&titulo=Capitulo 1';
+        document.getElementById("contenedor").src = '../fembed/?id='+y.nodeValue+'&titulo=Capitulo 1';
 
         //y.nodeValue;
     }
