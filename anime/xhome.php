@@ -128,7 +128,7 @@ html5Lightbox.showItem(href);
 
 <div data-role="collapsible" data-theme="b" data-content-theme="b">
     <h4>Click para abrir o cerrar el Reproductor</h4>
-    <iframe width="320px" height="250px" src="" frameborder="0" allowfullscreen name="contenedor" id="contenedor"></iframe>
+    <iframe width="320px" height="250px" src="" frameborder="0" allowfullscreen name="contenedor" id="contenedor"></iframe><br>
 
 <script type="text/javascript" src="//uprimp.com/bnr.php?section=zgtv468x60&pub=516552&format=468x60&ga=g"></script>
 <noscript><a href="https://yllix.com/publishers/516552" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
