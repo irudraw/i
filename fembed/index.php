@@ -38,7 +38,7 @@ $titulo = $_GET["titulo"];
 <div id="myElement"></div>
 <div data-theme="b" align="center"> <h3><?php echo $titulo ?></h3> </div>
 
-    <script src="https://content.jwplatform.com/libraries/lOWCQSKB.js"></script>
+    <script src="https://cdn.jwplayer.com/libraries/OsHCZHvZ.js"></script>
 	<script>
 		var playerInstance = jwplayer("myElement");
 		playerInstance.setup({
