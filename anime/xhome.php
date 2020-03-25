@@ -145,7 +145,7 @@ html5Lightbox.showItem(href);
             myFunction(this);
         }
     };
-    xhttp.open("GET", "list.xml", true);
+    xhttp.open("GET", "list.xml?v=<?php $d=mt_rand(1,30); echo $d ; ?>", true);
     xhttp.send();
 
     function myFunction(xml) {
