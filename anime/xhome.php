@@ -29,9 +29,9 @@ header('Content-Type: text/html; charset=utf-8');
    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
    <script src="http://zgrafic.com/list/code/tawk.js"></script>
 
-
+<!--
 <script type="text/javascript" src="//goraps.com/mobile_redir.php?section=General&pub=516552&ga=g&desktop=1"></script>
-
+-->
 
 
    <!--inicioscrpgalleria-->
