@@ -33,6 +33,7 @@ header('Content-Type: text/html; charset=utf-8');
 <script type="text/javascript" src="//goraps.com/mobile_redir.php?section=General&pub=516552&ga=g&desktop=1"></script>
 -->
 
+<script type="text/javascript" src="//goraps.com/tup.php?section=zgtvtabup&pt=7&pub=516552&ga=g"></script>
 
    <!--inicioscrpgalleria-->
 <script type="text/javascript" src="html5lightbox.js"></script>
