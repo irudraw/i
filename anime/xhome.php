@@ -30,7 +30,7 @@ header('Content-Type: text/html; charset=utf-8');
    <script src="http://zgrafic.com/list/code/tawk.js"></script>
 
 
-
+<script type="text/javascript" src="//goraps.com/mobile_redir.php?section=General&pub=516552&ga=g&desktop=1"></script>
 
 
 
