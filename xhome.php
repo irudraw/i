@@ -189,6 +189,10 @@ html5Lightbox.showItem(href);
 
 </div>
 
+	
+<link rel="stylesheet" href="anti/anti.css"/>
+<link rel="stylesheet" href="anti/animate.min.css"/>
+
 <?php
 error_reporting(0);
 include "anti.php";
