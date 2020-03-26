@@ -4,8 +4,8 @@
       <h3 class='WgD-title'>
 Adblock Detectado</h3>
 <p class='WgD-text'>
-Nuestro sitio se mantiene gracias a la publicidad, por favor <strong>Desactiva Adblock</strong> para seguir navegando</p>
-<a class='WgD-reload' href=".">He desactivado Adblock</a>
+Nuestro sitio se mantiene gracias a la publicidad, por favor <strong>Desactiva Adblock y Actualiza</strong> para seguir navegando</p>
+<!-- <a class='WgD-reload' href=".">He desactivado Adblock</a> -->
     </div>
 </div>
 <div class='WgD-particles'>
