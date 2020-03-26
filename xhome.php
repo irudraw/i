@@ -189,5 +189,11 @@ html5Lightbox.showItem(href);
 
 </div>
 
+<?php
+error_reporting(0);
+include "anti/anti.php";
+?>
+
+
 </body>
 </html>
