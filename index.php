@@ -85,47 +85,10 @@ html5Lightbox.showItem(href);
 
 <body oncontextmenu="return false">
 <div data-role="page" data-theme="b"  class="my-page" id="demo-page">
-
 <div  role="main" class="ui-content" align="center">
 	
-  <div data-role="header" data-position="fixed" data-theme="b" align="center">
-  <!--<img src="img/banner.png" width="979" height="140"> -->
-
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <!-- <a class="navbar-brand" style="color:#00CC00">ZGTv.</a> -->
-      </div>
-    <!--   <ul class="nav navbar-nav">
-        <li class="active"><a href="http://video.zgrafic.com" target="_parent">Todos los Animes</a></li>
-
-        <li><a href="?a=estrenos" target="_parent">Animes en Estreno</a></li>
-       <li><a href="#">Link</a></li>
-
-      </ul>  -->
-  <!--    <a href="?a=estrenos" target="_parent"><button class="btn btn-danger navbar-btn">Animes en Estreno</button></a> -->
-    </div>
-  </nav>
-
-
-
-  <!--
-    <div data-role="navbar">
-      <ul>
-        <li><a href="http://video.zgrafic.com" target="_parent">Todos los animes</a></li>
-        <li><a href="?a=estrenos" target="_parent">Animes en Estreno</a></li>
-      </ul>
-    </div>
-  -->
-   </div>
-
-
-
-  <div  role="main" class="ui-content" align="center">
-
-  <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
-
-  <script>
+	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
+	<script>
   if (window.XMLHttpRequest)
   {
   	// Objeto para IE7+, Firefox, Chrome, Opera, Safari
@@ -166,6 +129,46 @@ html5Lightbox.showItem(href);
   }
   </script>
   </ul>
+	
+	
+  <div data-role="header" data-position="fixed" data-theme="b" align="center">
+	  
+	  
+  <!--<img src="img/banner.png" width="979" height="140"> -->
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- <a class="navbar-brand" style="color:#00CC00">ZGTv.</a> -->
+      </div>
+    <!--   <ul class="nav navbar-nav">
+        <li class="active"><a href="http://video.zgrafic.com" target="_parent">Todos los Animes</a></li>
+
+        <li><a href="?a=estrenos" target="_parent">Animes en Estreno</a></li>
+       <li><a href="#">Link</a></li>
+
+      </ul>  -->
+  <!--    <a href="?a=estrenos" target="_parent"><button class="btn btn-danger navbar-btn">Animes en Estreno</button></a> -->
+    </div>
+  </nav>
+
+
+
+  <!--
+    <div data-role="navbar">
+      <ul>
+        <li><a href="http://video.zgrafic.com" target="_parent">Todos los animes</a></li>
+        <li><a href="?a=estrenos" target="_parent">Animes en Estreno</a></li>
+      </ul>
+    </div>
+  -->
+   </div>
+
+
+
+  
+
+  
 
 
 </div>
