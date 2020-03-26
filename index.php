@@ -25,7 +25,6 @@
    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-   <script src="http://zgrafic.com/list/code/tawk.js"></script>
 						     
 	
 						     
@@ -179,7 +178,7 @@ html5Lightbox.showItem(href);
 <input id="myFilter" data-type="search" data-theme="a">
 </form>
     </td>
-    <td>
+<!--    <td>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -192,7 +191,7 @@ html5Lightbox.showItem(href);
 <div class="fb-share-button" data-href="https://zanime.herokuapp.com/" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" href="#" onClick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://zanime.herokuapp.com/&amp;src=sdkpreparse','','top=300,left=300,width=300,height=300')"><img src="img/fb_share.png" /></a></div>
 
 
-    </td>
+    </td>-->
   </tr>
 </table>
 <script type="text/javascript" src="//uprimp.com/bnr.php?section=zgtv728x90&pub=516552&format=728x90&ga=g"></script>
