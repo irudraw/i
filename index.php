@@ -16,7 +16,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 
 
-  <meta property="og:url"           content=https://zanime.herokuapp.com/" />
+  <meta property="og:url"           content="https://zanime.herokuapp.com/" />
   <meta property="og:type"          content="ZGTv." />
   <meta property="og:title"         content="ZGTv. Full Animes" />
   <meta property="og:description"   content="ZGTv. es una web es la que podras disfrutar del contenido completamente Gratis" />
