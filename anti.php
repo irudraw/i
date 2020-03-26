@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="anti.css"/>
-<link rel="stylesheet" href="animate.min.css"/>
 <div id="WgD">
   <div class='WgD-position'>
     <div class='WgD-container'>
