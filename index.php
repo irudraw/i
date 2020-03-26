@@ -1,10 +1,9 @@
 <?php
-header('Content-Type: text/html; charset=utf-8');
+//header('Content-Type: text/html; charset=utf-8');
 ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta lang="es">
@@ -16,7 +15,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 
 
-  <meta property="og:url"           content="https://zanime.herokuapp.com/" />
+  <meta property="og:url"           content="https://zanime.herokuapp.com/"/>
   <meta property="og:type"          content="ZGTv." />
   <meta property="og:title"         content="ZGTv. Full Animes" />
   <meta property="og:description"   content="ZGTv. es una web es la que podras disfrutar del contenido completamente Gratis" />
@@ -43,7 +42,7 @@ html5Lightbox.showItem(href);
 </script>
 <!--finscrpgalleria-->
 
-
+<!--
    <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -62,7 +61,7 @@ html5Lightbox.showItem(href);
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
-
+-->
 
 <link href='img/zgtvlogo.png' rel='shortcut icon' type='image/png'/>
 
