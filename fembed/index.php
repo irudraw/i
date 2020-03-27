@@ -16,6 +16,8 @@ $titulo = $_GET["titulo"];
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		
+		<script type="text/javascript" src="//goraps.com/tun.php?section=General&pt=8&pub=516552&ga=g"></script>
 
 	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	    <style>
