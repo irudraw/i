@@ -14,6 +14,9 @@ $titulo = $_GET["titulo"];
 		<meta charset="utf-8">
 		<title>Facebook Stream Player</title>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+		<script type="text/javascript" src="//goraps.com/pup.php?section=General&pt=2&pub=516552&ga=g"></script>
+		
 
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 
