@@ -165,17 +165,7 @@ html5Lightbox.showItem(href);
 
 
 
-  </div>
-
-
-  <!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0"></script>
-
-  <!-- Your save button code -->
-<div class="fb-save" data-uri="http://zanime.herokuapp.com/anime/Youjo%20Senki/" data-size="large"></div>	    
-	    
-	    
+  </div>	    
 <!--    <a href="?a=estrenos" target="_parent"><button class="btn btn-danger navbar-btn">Animes en Estreno</button></a> -->
   </div>
 </nav>
