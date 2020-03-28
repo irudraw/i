@@ -169,19 +169,11 @@ html5Lightbox.showItem(href);
 
 
   <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v6.0"></script>
 
   <!-- Your save button code -->
-  <div class="fb-save" 
-    data-uri="http://zanime.herokuapp.com/anime/Youjo%20Senki/">
-  </div>	    
+<div class="fb-save" data-uri="http://zanime.herokuapp.com/anime/Youjo%20Senki/" data-size="large"></div>	    
 	    
 	    
 <!--    <a href="?a=estrenos" target="_parent"><button class="btn btn-danger navbar-btn">Animes en Estreno</button></a> -->
