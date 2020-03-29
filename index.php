@@ -64,7 +64,7 @@ html5Lightbox.showItem(href);
 
 <link href='img/zgtvlogo.png' rel='shortcut icon' type='image/png'/>
 
-<title>ZGTv</title></head>
+<title>ZAnime Latino • Español • Castellano</title></head>
 
   <style>
   .textbox
