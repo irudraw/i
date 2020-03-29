@@ -123,7 +123,7 @@ html5Lightbox.showItem(href);
   		document.write("<h2>"+titulo+"</h2>");
   		//document.write("<p>Code: "+code+"</p>");
   		document.write("<p class='ui-li-aside'>ZAnime</p>");
-  		document.write("<a href='https://youtube.com/embed/"+pvideo+"??autoplay=1&wmode=transparent&rel=0&html5=1' class='html5lightbox' title='"+titulo+"' data-icon='star'>Video Previo</a>");
+  		document.write("<a href='https://youtube.com/embed/"+pvideo+"??autoplay=1&wmode=transparent&rel=0&html5=1' class='html5lightbox' title='"+titulo+"' data-icon='video'>Opening</a>");
   		document.write("</a>");
   	document.write("</li>");
   }
