@@ -16,9 +16,9 @@
 
 
   <meta property="og:url"           content="https://zanime.herokuapp.com/"/>
-  <meta property="og:type"          content="ZGTv." />
-  <meta property="og:title"         content="ZGTv. Full Animes en idioma latino, español, castellano" />
-  <meta property="og:description"   content="ZGTv. es una web es la que podras disfrutar del contenido completamente Gratis" />
+  <meta property="og:type"          content="ZAnime" />
+  <meta property="og:title"         content="ZAnime Full Animes en idioma latino, español, castellano" />
+  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis" />
   <meta property="og:image"         content="img/zgtvlogo.png" />
 
 
