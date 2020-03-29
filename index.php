@@ -11,13 +11,13 @@
    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
    <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.5/listview-grid/listview-grid.css">
    <link href='img/zgtvlogo.png' rel='image_src'/>
-   <meta name="title" content="ZGTv. Full Animes Videos Peliculas Gratis">
+   <meta name="title" content="ZAnime Full Animes en idioma latino, español, castellano ">
 
 
 
   <meta property="og:url"           content="https://zanime.herokuapp.com/"/>
   <meta property="og:type"          content="ZGTv." />
-  <meta property="og:title"         content="ZGTv. Full Animes" />
+  <meta property="og:title"         content="ZGTv. Full Animes en idioma latino, español, castellano" />
   <meta property="og:description"   content="ZGTv. es una web es la que podras disfrutar del contenido completamente Gratis" />
   <meta property="og:image"         content="img/zgtvlogo.png" />
 
@@ -122,8 +122,8 @@ html5Lightbox.showItem(href);
   		document.write("<img src='anime/"+titulo+"/poster.png' class='ui-li-thumb'  height='100%'>");
   		document.write("<h2>"+titulo+"</h2>");
   		//document.write("<p>Code: "+code+"</p>");
-  		document.write("<p class='ui-li-aside'>ZGTv.</p>");
-  		//document.write("<a href='https://www.youtube.com/embed/"+pvideo+"??rel=0&showinfo=0&autoplay=1&modestbranding=1' class='html5lightbox' title='"+titulo+"' data-icon='star'>Video Previo</a>");
+  		document.write("<p class='ui-li-aside'>ZAnime</p>");
+  		document.write("<a href='https://www.youtube.com/embed/"+pvideo+"??rel=0&showinfo=0&autoplay=1&modestbranding=1' class='html5lightbox' title='"+titulo+"' data-icon='star'>Video Previo</a>");
   		document.write("</a>");
   	document.write("</li>");
   }
