@@ -10,16 +10,16 @@ header('Content-Type: text/html; charset=utf-8');
 <meta lang="es">
 <meta charset="utf-8">
    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-   <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.5/listview-grid/listview-grid.css">
+   <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.5/listview-grid/listview-grid.css">
    <link href='img/zgtvlogo.png' rel='image_src'/>
-   <meta name="title" content="ZGTv. Full Animes Videos Peliculas Gratis">
+   <meta name="title" content="ZAnime Full Animes Videos Peliculas Gratis">
 
 
 
-  <meta property="og:url"           content="http://zgrafic.com" />
-  <meta property="og:type"          content="ZGTv." />
-  <meta property="og:title"         content="ZGTv. Full Animes" />
-  <meta property="og:description"   content="ZGTv. es una web es la que podras disfrutar del contenido completamente Gratis" />
+  <meta property="og:url"           content="https://zanime.herokuapp.com/" />
+  <meta property="og:type"          content="ZAnime" />
+  <meta property="og:title"         content="ZAnime Full Animes" />
+  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis" />
   <meta property="og:image"         content="img/zgtvlogo.png" />
 
 
@@ -27,31 +27,12 @@ header('Content-Type: text/html; charset=utf-8');
    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-   <script src="http://zgrafic.com/list/code/tawk.js"></script>
-
-<!--
-<script type="text/javascript" src="//goraps.com/mobile_redir.php?section=General&pub=516552&ga=g&desktop=1"></script>
--->
 
 <script type="text/javascript" src="//goraps.com/tup.php?section=zgtvtabup&pt=7&pub=516552&ga=g"></script>
 
-   <!--inicioscrpgalleria-->
-<script type="text/javascript" src="html5lightbox.js"></script>
-<script type="text/javascript">
-function LightboxGroupLink(id) {
-var href = document.getElementById(id).getAttribute('href');
-html5Lightbox.showItem(href);
-}
-</script>
-<!--finscrpgalleria-->
-
-
-
-
-
 <link href='../../img/zgtvlogo.png' rel='shortcut icon' type='image/png'/>
 
-<title>ZGTv</title></head>
+<title>ZAnime Latino • Español • Castellano</title></head>
 
   <style>
   .textbox
@@ -135,11 +116,6 @@ html5Lightbox.showItem(href);
 	
 <script type="text/javascript" src="//uprimp.com/bnr.php?section=zgtv468x60&pub=516552&format=468x60&ga=g"></script>
 <noscript><a href="https://yllix.com/publishers/516552" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
-
-
-
-
-
 
     <script>
     var xhttp = new XMLHttpRequest();
