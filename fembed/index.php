@@ -46,17 +46,12 @@ $titulo = $_GET["titulo"];
 		var playerInstance = jwplayer("myElement");
 		playerInstance.setup({
 			title: "<?php echo $titulo ?>",
+			description: "http://zanime.herokuapp.com/",
 			sources: <?php echo $fdata ?>,
 			image: "",
 			width:"100%",
 			height:"100%",
-			autostart: "false",
-			floating: {
-    "dismissible": true
-  },
-			sharing: {
-    sites: ["facebook","twitter"]
-			},
+			autostart: "false",			
 		});
 	</script>
     </body>
