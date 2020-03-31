@@ -51,9 +51,12 @@ $titulo = $_GET["titulo"];
 			width:"100%",
 			height:"100%",
 			autostart: "false",
+			floating": {
+    "dismissible": true
+  },
 			sharing: {
     sites: ["facebook","twitter"]
-			}
+			},
 		});
 	</script>
     </body>
