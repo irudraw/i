@@ -131,7 +131,11 @@ header('Content-Type: text/html; charset=utf-8');
         var xmlDoc = xml.responseXML;
         var x = xmlDoc.getElementsByTagName('iurl')[0];
         var y = x.childNodes[0];
-        document.getElementById("contenedor").src = '../../fembed/?id='+y.nodeValue+'&titulo=Capitulo 1';
+	    
+	var z = xmlDoc.getElementsByTagName('titulo')[0];
+	var n = z.childNodes[0];
+	    
+        document.getElementById("contenedor").src = '../../fembed/?id='+y.nodeValue+'&titulo='+n.nodeValue+' 1';
 
         //y.nodeValue;
     }
