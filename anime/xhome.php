@@ -86,7 +86,7 @@ header('Content-Type: text/html; charset=utf-8');
   	iurl=foros[i].getElementsByTagName("iurl")[0].childNodes[0].nodeValue
 
   	document.write("<li>");
-  		document.write("<a href='../../fembed/?id="+iurl+"&titulo=Capitulo "+cap+"' target='contenedor'>");
+  		document.write("<a href='../../fembed/?id="+iurl+"&titulo="+titulo+"+"+cap+"' target='contenedor'>");
   		document.write("<img src='poster.png' class='ui-li-thumb'  height='100%'>");
   		document.write("<h2>"+titulo+"</h2>");
   		//document.write("<p>Code: "+code+"</p>");
