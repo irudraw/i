@@ -51,7 +51,17 @@ $titulo = $_GET["titulo"];
 			image: "",
 			width:"100%",
 			height:"100%",
-			autostart: "false",			
+			autostart: "false",
+			sharing: {
+    sites: ["facebook","twitter","email","linkedin","pinterest"]
+  },
+  intl: {
+    en: {
+      sharing: {
+        heading: "Share this awesome video"
+      }
+    }
+  }
 		});
 	</script>
     </body>
