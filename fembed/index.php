@@ -45,7 +45,7 @@ $titulo = $_GET["titulo"];
 	<script>
 		var playerInstance = jwplayer("myElement");
 		playerInstance.setup({
-			title: "One Media Item",
+			title: <?php echo $titulo ?>,
 			sources: <?php echo $fdata ?>,
 			image: "",
 			width:"100%",
