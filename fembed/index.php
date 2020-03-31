@@ -39,7 +39,7 @@ $titulo = $_GET["titulo"];
 
 
 <div id="myElement"></div>
-<div data-theme="b" align="center"> <h5><?php echo $titulo ?></h5> </div>
+<div data-theme="b" align="center"> <font size="2" color="white"><?php echo $titulo ?></font> </div>
 
     <script src="https://cdn.jwplayer.com/libraries/Yg6fcc1g.js"></script>
 	<script>
