@@ -53,6 +53,7 @@ $titulo = $_GET["titulo"];
 			autostart: "false",
 			sharing: {
     sites: ["facebook","twitter"]
+			}
 		});
 	</script>
     </body>
