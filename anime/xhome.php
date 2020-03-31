@@ -110,7 +110,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 <div data-role="collapsible" data-theme="b" data-content-theme="b">
     <h4>Click para abrir o cerrar el Reproductor</h4>
-    <iframe width="320px" height="240px" src="" frameborder="0" allowfullscreen name="contenedor" id="contenedor"></iframe><br>
+    <iframe width="320px" height="230px" src="" frameborder="0" allowfullscreen name="contenedor" id="contenedor"></iframe><br>
 
 <a href="https://goraps.com/fullpage.php?section=zgDLink&pub=516552&ga=g" target="_blank">Descargar</a><br>
 	
