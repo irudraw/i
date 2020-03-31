@@ -12,7 +12,7 @@ $titulo = $_GET["titulo"];
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Facebook Stream Player</title>
+		<title>ZAnime <?php echo $titulo ?> </title>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		
 		<script type="text/javascript" src="//goraps.com/pup.php?section=zgtvPopUp&pt=2&pub=516552&ga=g"></script>
