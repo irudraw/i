@@ -46,7 +46,7 @@ $sb = $_GET["sb"];
 <font size="2" color="white">
 <?php
 if ($sb = "no") {
-    
+    echo "";
 else {
     echo $titulo;
 }
