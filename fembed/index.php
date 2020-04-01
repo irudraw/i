@@ -4,6 +4,7 @@
 
 $id = $_GET["id"];
 $titulo = $_GET["titulo"];
+$sb = $_GET["sb"];
 
 	$fblink = 'https://www.facebook.com/'.$id.'/';
 	$fdata = facebookstream($fblink);
@@ -39,7 +40,19 @@ $titulo = $_GET["titulo"];
 
 
 <div id="myElement"></div>
-<div data-theme="b" align="center"> <font size="2" color="white"><?php echo $titulo ?></font> </div>
+<!-- <div data-theme="b" align="center"> <font size="2" color="white"><?php // echo $titulo ?></font> </div> -->
+
+<div data-theme="b" align="center">	
+<font size="2" color="white">
+<?php
+if ($sb == "no") {
+    
+else {
+    echo $titulo;
+}
+?>
+</font>
+</div>
 
     <script src="https://cdn.jwplayer.com/libraries/Yg6fcc1g.js"></script>
 	<script>
