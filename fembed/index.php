@@ -40,19 +40,8 @@ $sb = $_GET["sb"];
 
 
 <div id="myElement"></div>
-<!-- <div data-theme="b" align="center"> <font size="2" color="white"><?php // echo $titulo ?></font> </div> -->
+<div align="center"> <font size="2" color="white"><?php echo $titulo ?></font> </div>
 
-<div data-theme="b" align="center">	
-<font size="2" color="white">
-<?php
-if ($sb = "si"):
-    echo $titulo;
-else:
-    echo "";
-endif;
-?>
-</font>
-</div>
 
     <script src="https://cdn.jwplayer.com/libraries/Yg6fcc1g.js"></script>
 	<script>
