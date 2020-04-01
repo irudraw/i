@@ -45,10 +45,10 @@ $sb = $_GET["sb"];
 <div data-theme="b" align="center">	
 <font size="2" color="white">
 <?php
-if ($sb = "no"):
-    echo "";
-else:
+if ($sb = "si"):
     echo $titulo;
+else:
+    echo "";
 endif;
 ?>
 </font>
