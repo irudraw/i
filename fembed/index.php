@@ -4,7 +4,6 @@
 
 $id = $_GET["id"];
 $titulo = $_GET["titulo"];
-$sb = $_GET["sb"];
 
 	$fblink = 'https://www.facebook.com/'.$id.'/';
 	$fdata = facebookstream($fblink);
