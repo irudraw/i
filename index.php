@@ -117,9 +117,9 @@ html5Lightbox.showItem(href);
   	//code=foros[i].getElementsByTagName("code")[0].childNodes[0].nodeValue
   	pvideo=foros[i].getElementsByTagName("pvideo")[0].childNodes[0].nodeValue
 
-  	document.write("<li loading="lazy">");
+  	document.write("<li loading='lazy'>");
   		document.write("<a href='anime/"+titulo+"' target='_blank'>");
-  		document.write("<img loading="lazy" src='anime/"+titulo+"/poster.png' class='ui-li-thumb'  height='100%'>");
+  		document.write("<img loading='lazy' src='anime/"+titulo+"/poster.png' class='ui-li-thumb'  height='100%'>");
   		//document.write("<h2>"+titulo+"</h2>");
 	  	document.write("<p><b>"+titulo+"</b></p>");
   		//document.write("<p>Code: "+code+"</p>");
