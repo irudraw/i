@@ -12,5 +12,7 @@
   
 <img src="data:image/jpg;base64,<?php $filename = $_GET["file"]; echo base64_encode(file_get_contents("$filename")) ?>" height="200" width="200" alt="base64" />
 
+	//b64.php?file=anime/Chobits/poster.png
+	
 </body>
 </html>
