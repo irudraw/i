@@ -17,7 +17,7 @@ $newHeight = round($newWidth / $ratio);
 //$newWidth = 200;
 //$newHeight = 200;
 
-//$imageInfo = getimagesize($filename);
+$imageInfo = getimagesize($filename);
 
 $image = imagecreatefrompng($filename); //create source image resource
 imagesavealpha($image, true); //saving transparency
