@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: image/png');
 
-$filename = "anime/Chobits/poster.png";
+$filename = $_GET["file"];
 $width = $_GET["w"];
 
 
