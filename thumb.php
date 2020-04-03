@@ -6,30 +6,23 @@ $width = $_GET["w"];
 
 
 $file_info = getimagesize($filename); 
-// Obtenemos la relación de aspecto 
 $ratio = $file_info[0] / $file_info[1]; 
 
-// Calculamos las nuevas dimensiones 
 $newWidth = $width; 
 $newHeight = round($newWidth / $ratio); 
- 
-
-//$newWidth = 200;
-//$newHeight = 200;
 
 $imageInfo = getimagesize($filename);
 
-$image = imagecreatefrompng($filename); //create source image resource
-imagesavealpha($image, true); //saving transparency
+$image = imagecreatefrompng($filename);
+imagesavealpha($image, true);
 
-$newImg = imagecreatetruecolor($newWidth, $newHeight); //creating conteiner for new image
+$newImg = imagecreatetruecolor($newWidth, $newHeight);
 imagealphablending($newImg, false);
 imagesavealpha($newImg,true);
-$transparent = imagecolorallocatealpha($newImg, 255, 255, 255, 127); //seting transparent background
+$transparent = imagecolorallocatealpha($newImg, 255, 255, 255, 127);
 imagefilledrectangle($newImg, 0, 0, $newWidth, $newHeight, $transparent);
 imagecopyresampled($newImg, $image, 0, 0, 0, 0, $newWidth, $newHeight,  $imageInfo[0], $imageInfo[1]);
 
-echo imagepng($newImg); //printout image string
+imagepng($newImg);
 
-//tumb.php?file=folder/folder/img.png&w=200
 ?>
