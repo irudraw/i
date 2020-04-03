@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: image/png');
 
-$filename = $_GET["file"];
-$width = $_GET["w"];
+$filename = $_GET["filename"];
+$width = $_GET["width"];
 
 
 $file_info = getimagesize($filename); 
