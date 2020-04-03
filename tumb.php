@@ -5,19 +5,19 @@ $filename = $_GET["file"];
 $width = $_GET["w"];
 
 
-//$file_info = getimagesize($filename); 
+$file_info = getimagesize($filename); 
 // Obtenemos la relación de aspecto 
-//$ratio = $file_info[0] / $file_info[1]; 
+$ratio = $file_info[0] / $file_info[1]; 
 
 // Calculamos las nuevas dimensiones 
-//$newWidth = $width; 
-//$newHeight = round($newWidth / $ratio); 
+$newWidth = $width; 
+$newHeight = round($newWidth / $ratio); 
  
 
-$newWidth = 200;
-$newHeight = 200;
+//$newWidth = 200;
+//$newHeight = 200;
 
-$imageInfo = getimagesize($filename);
+//$imageInfo = getimagesize($filename);
 
 $image = imagecreatefrompng($filename); //create source image resource
 imagesavealpha($image, true); //saving transparency
