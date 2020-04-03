@@ -130,7 +130,7 @@ html5Lightbox.showItem(href);
 		setInterval(
 				function(){
 					$('#seccionRecargar').load('index_listview.php');
-				},100000
+				},5000
 			);
 	});
 </script>
