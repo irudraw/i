@@ -5,9 +5,12 @@
 	<title>B64</title>
 </head>
 
-<body>
+<body> 
+
+
+
   
-<img src="data:image/jpg;base64,<?php $filename = $_GET["file"]; echo base64_encode(file_get_contents("$filename")) ?>" height="19" width="78" alt="base64" />
+<img src="data:image/jpg;base64,<?php $filename = $_GET["file"]; $newWidth = 200; $newHeight = 200; $imageInfo = getimagesize($filename); echo base64_encode(file_get_contents("$filename")) ?>" height="19" width="78" alt="base64" />
 
 </body>
 </html>
