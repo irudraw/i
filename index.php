@@ -13,7 +13,7 @@
    <link href='img/zgtvlogo.png' rel='image_src'/>
    <meta name="title" content="ZAnime Full Animes en idioma latino, español, castellano ">
 
-
+   <script src="live.js"></script>
 
   <meta property="og:url"           content="https://zanime.herokuapp.com/"/>
   <meta property="og:type"          content="ZAnime" />
