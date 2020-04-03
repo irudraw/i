@@ -29,7 +29,7 @@ $transparent = imagecolorallocatealpha($newImg, 255, 255, 255, 127); //seting tr
 imagefilledrectangle($newImg, 0, 0, $newWidth, $newHeight, $transparent);
 imagecopyresampled($newImg, $image, 0, 0, 0, 0, $newWidth, $newHeight,  $imageInfo[0], $imageInfo[1]);
 
-imagepng($newImg); //printout image string
+echo imagepng($newImg); //printout image string
 
 //tumb.php?file=folder/folder/img.png&w=200
 ?>
