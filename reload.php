@@ -27,9 +27,6 @@ header('Content-Type: text/html; charset=utf-8');
    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
    <script src="http://zgrafic.com/list/code/tawk.js"></script>
-						     
-						     
-<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
 
    <!--inicioscrpgalleria-->
@@ -43,24 +40,7 @@ html5Lightbox.showItem(href);
 <!--finscrpgalleria-->
 
 
-   <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1898526567030464',
-      xfbml      : true,
-      version    : 'v2.8'
-    });
-    FB.AppEvents.logPageView();
-  };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
 
 
 <link href='img/zgtvlogo.png' rel='shortcut icon' type='image/png'/>
@@ -123,16 +103,30 @@ html5Lightbox.showItem(href);
   <div  role="main" class="ui-content" align="center">
 
   <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
-<div id="seccionRecargar"></div>
+<div id='myWatch'></div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
 <script type="text/javascript">
-	$(document).ready(function(){
-		setInterval(
-				function(){
-					$('#seccionRecargar').load('index_listview.php');
-				},5000
-			);
-	});
+
+    function getTimeAJAX() {
+
+        //GUARDAMOS EN UNA VARIABLE EL RESULTADO DE LA CONSULTA AJAX    
+
+        var time = $.ajax({
+
+            url: 'index_listview.php', //indicamos la ruta donde se genera la hora
+                dataType: 'text',//indicamos que es de tipo texto plano
+                async: false     //ponemos el parámetro asyn a falso
+        }).responseText;
+
+        //actualizamos el div que nos mostrará la hora actual
+        document.getElementById("myWatch").innerHTML = "La fecha que hemos obtenido de time.php vía AJAX es: "+time;
+    }
+
+    //con esta funcion llamamos a la función getTimeAJAX cada segundo para actualizar el div que mostrará la hora
+    setInterval(getTimeAJAX,1000);
+
 </script>
 
 
@@ -152,14 +146,7 @@ html5Lightbox.showItem(href);
 </form>
     </td>
     <td>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div class="fb-share-button" data-href="https://zanime.herokuapp.com/" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" href="#" onClick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://zanime.herokuapp.com/&amp;src=sdkpreparse','','top=300,left=300,width=300,height=300')"><img src="img/fb_share.png" /></a></div>
 
