@@ -17,6 +17,18 @@ $titulo = $_GET["titulo"];
 		
 		<script type="text/javascript" src="//goraps.com/pup.php?section=zgtvPopUp&pt=2&pub=516552&ga=g"></script>
 		
+		
+<!-- PopMyAds.com Popunder Code for zanime.herokuapp.com -->
+ 
+<script type="text/javascript" data-cfasync="false">
+var pmauid = '57538';
+var pmawid = '55982';
+var fq = '0';
+</script>
+<script type="text/javascript" data-cfasync="false" src="https://cdn.popmyads.com/pma.js"></script>
+ 
+<!-- PopMyAds.com Popunder Code End -->
+		
 
 <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
 
