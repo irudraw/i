@@ -74,15 +74,6 @@ html5Lightbox.showItem(href);
  </style>
 	
 <style type="text/css">
-	@media (min-width:801px)  { 
-		#contenedor { 
-			width: 450px; 
-			height: 300px; 
-		} 
-	} 
-</style>
-
-<style type="text/css">
 #centro {
 	width: 100%;
 	position: absolute;
