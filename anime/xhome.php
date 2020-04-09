@@ -50,6 +50,15 @@ header('Content-Type: text/html; charset=utf-8');
 
 }
     </style>
+	
+<style type="text/css">
+	@media (min-width:801px)  { 
+		#contenedor { 
+			width: 450px; 
+			height: 300px; 
+		} 
+	} 
+</style>
 
 <body oncontextmenu="return false">
 <div data-role="page" data-theme="b"  class="my-page" id="demo-page"><div  role="main" class="ui-content" align="center">
