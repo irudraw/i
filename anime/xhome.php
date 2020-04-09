@@ -62,6 +62,11 @@ header('Content-Type: text/html; charset=utf-8');
 
 <body oncontextmenu="return false">
 <div data-role="page" data-theme="b"  class="my-page" id="demo-page"><div  role="main" class="ui-content" align="center">
+	
+<div style="width: 100%;">	
+<script type="text/javascript" src="//uprimp.com/bnr.php?section=zgtv468x60&pub=516552&format=468x60&ga=g"></script>
+<noscript><a href="https://yllix.com/publishers/516552" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
+</div>
 
   <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
 
@@ -124,8 +129,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 <a href="https://goraps.com/fullpage.php?section=zgDLink&pub=516552&ga=g" target="_blank">Descargar</a><br>
 	
-<script type="text/javascript" src="//uprimp.com/bnr.php?section=zgtv468x60&pub=516552&format=468x60&ga=g"></script>
-<noscript><a href="https://yllix.com/publishers/516552" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
+
 
     <script>
     var xhttp = new XMLHttpRequest();
