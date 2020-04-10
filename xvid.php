@@ -38,7 +38,7 @@ if($urlMP4 == ""){
 
 
 
-
+<!--
 <div class="container">
 
 
@@ -51,8 +51,8 @@ if($urlMP4 == ""){
 var playerInstance = jwplayer('myElement')
 playerInstance.setup({
     playlist: [{
-        file: '<?php echo($urlMP4) ?>',
-        image: '<?php echo ($urlJPG) ?>',
+        file: '<//?php echo($urlMP4) ?>',
+        image: '<//?php echo ($urlJPG) ?>',
         tracks: [{
             file: '/assets/captions-en.vtt', 
             label: 'Latino',
@@ -69,8 +69,27 @@ playerInstance.setup({
 
 
 </div>
+-->
+
 
 <a href="<?php echo($urlMP4) ?>" download="zgvid.mp4">Download Text</a>
+
+<div id="myElement"></div>
+
+    <script src="https://cdn.jwplayer.com/libraries/Yg6fcc1g.js"></script>
+	<script>
+		var playerInstance = jwplayer("myElement");
+		playerInstance.setup({
+			title: "<?php echo $titulo ?>",
+			description: "http://zanime.herokuapp.com/",
+			sources: '<?php echo($urlMP4) ?>',
+			image: '<?php echo ($urlJPG) ?>',
+			width:"100%",
+			height:"100%",
+			autostart: "false",
+			floating: "true",
+		});
+	</script>
 
 <!--
 <link href="/video/video-js.css" rel="stylesheet">
