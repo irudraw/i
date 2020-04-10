@@ -82,8 +82,8 @@ playerInstance.setup({
 		playerInstance.setup({
 			title: "<?php echo $titulo ?>",
 			description: "http://zanime.herokuapp.com/",
-			sources: '<?php echo($urlMP4) ?>',
-			image: '<?php echo ($urlJPG) ?>',
+			sources: "<?php echo($urlMP4) ?>",
+			image: "<?php echo ($urlJPG) ?>",
 			width:"100%",
 			height:"100%",
 			autostart: "false",
