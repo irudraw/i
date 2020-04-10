@@ -4,7 +4,7 @@ error_reporting(0);
 $id = $_GET["id"];
 
 // M�dulo de extraxi�n para usar Video.js
-$conexion = curl_init("http://xvideos.com/video". $id ."/");
+$conexion = curl_init("https://xvideos.com/video". $id ."/");
 //$conexion = curl_init("https://www.xvideos.com/video53326125/");
 curl_setopt($conexion, CURLOPT_USERAGENT, "Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30");
 curl_setopt($conexion, CURLOPT_HTTPHEADER, array("Accept-Language: es-es,en"));
