@@ -13,6 +13,6 @@ echo '<a href="'.$linkx.'">'.$linkx.'</a>';
 
 
 $urlsinparametros= explode('#', $_SERVER['REQUEST_URI'], 2);
-return "https://". $_SERVER["HTTP_HOST"] . $urlsinparametros[0];
+echo "https://". $_SERVER["HTTP_HOST"] . $urlsinparametros[0];
 
 ?>
