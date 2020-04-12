@@ -118,7 +118,7 @@ html5Lightbox.showItem(href);
   	pvideo=foros[i].getElementsByTagName("pvideo")[0].childNodes[0].nodeValue
 
   	document.write("<li>");
-  		document.write("<a href='anime/"+titulo+"' target='_blank'>");
+  		document.write("<a href='anime/"+titulo+"/#0' target='_blank'>");
   		document.write("<img loading='lazy' src='anime/"+titulo+"/poster.png' class='ui-li-thumb'  height='100%'>");
 	  	//document.write("<img src='tumb.php?file=anime/"+titulo+"/poster.png&w=250' class='ui-li-thumb'  height='100%'>");
   		//document.write("<h2>"+titulo+"</h2>");
