@@ -22,7 +22,7 @@ echo "https://". $_SERVER["HTTP_HOST"] . $urlsinparametros[0];
 var URLhash = window.location.hash;
 var cad = URLhash;
  
-var xd = cad.slice(-1);
+var xd = cad.slice(-1,-0);
 
 document.write(cad);
 document.write(xd);
