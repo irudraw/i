@@ -20,6 +20,10 @@ echo "https://". $_SERVER["HTTP_HOST"] . $urlsinparametros[0];
 
 <script type="text/javascript">
 var URLhash = window.location.hash;
-alert(URLhash);
+var cad = URLhash
+ 
+cad.slice(1, 0);
+
+  alert(cad.slice);
 </script>
 
