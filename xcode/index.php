@@ -9,6 +9,10 @@ $escaped_link = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');
 
 echo '<a href="'.$escaped_link.'">'.$escaped_link.'</a><br>';
 
-echo '<a href="'.$linkx.'">'.linkx.'</a>';
+echo '<a href="'.$linkx.'">'.$linkx.'</a>';
+
+
+$urlsinparametros= explode('#', $_SERVER['REQUEST_URI'], 2);
+return "https://". $_SERVER["HTTP_HOST"] . $urlsinparametros[0];
 
 ?>
