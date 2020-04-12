@@ -16,3 +16,10 @@ $urlsinparametros= explode('#', $_SERVER['REQUEST_URI'], 2);
 echo "https://". $_SERVER["HTTP_HOST"] . $urlsinparametros[0];
 
 ?>
+
+
+<script type="text/javascript">
+var URLhash = window.location.hash;
+alert(URLhash);
+</script>
+
