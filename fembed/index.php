@@ -67,8 +67,10 @@ var fq = '0';
 <div id="myElement"></div>
 <div align="center"> <font size="2" color="white"><?php echo $titulo ?></font> </div>
 
+		<script src="https://content.jwplatform.com/libraries/QpLbHLbV.js"></script>
 
-    <script src="https://cdn.jwplayer.com/libraries/Yg6fcc1g.js"></script>
+ <!-- <script src="https://cdn.jwplayer.com/libraries/Yg6fcc1g.js"></script> -->
+
 	<script>
 		var playerInstance = jwplayer("myElement");
 		playerInstance.setup({
