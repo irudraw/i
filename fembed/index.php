@@ -15,7 +15,17 @@ $titulo = $_GET["titulo"];
 		<title>ZAnime <?php echo $titulo ?> </title>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		
-		<script type="text/javascript" src="//goraps.com/pup.php?section=zgtvPopUp&pt=2&pub=516552&ga=g"></script>
+<script type="application/javascript">
+    var ad_idzone = "3806717",
+    ad_popup_fallback = true,
+    ad_popup_force = false,
+    ad_chrome_enabled = true,
+    ad_new_tab = false,
+    ad_frequency_period = 60,
+    ad_frequency_count = 3,
+    ad_trigger_method = 3;
+</script>
+<script type="application/javascript" src="https://a.exdynsrv.com/popunder1000.js"></script>
 		
 		
 <!-- PopMyAds.com Popunder Code for zanime.herokuapp.com -->
