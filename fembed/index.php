@@ -15,6 +15,10 @@ $titulo = $_GET["titulo"];
 		<title>ZAnime <?php echo $titulo ?> </title>
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		
+		
+<script type="application/javascript" src="https://syndication.exdynsrv.com/instream-tag.php?idzone=3806721"></script>
+		
+		
 <script type="application/javascript">
     var ad_idzone = "3806717",
     ad_popup_fallback = true,
@@ -76,6 +80,19 @@ var fq = '0';
 			height:"100%",
 			autostart: "false",
 			floating: "true",
+			
+			/**** ADVERTISING SECTION STARTS HERE ****/
+        advertising: {
+            client: "vast",
+            schedule: {
+                "myAds": {
+                    "offset": "pre",
+                    "tag" : "https://syndication.exdynsrv.com/splash.php?idzone=3806721"
+                }
+            }
+        },
+        /**** ADVERTISING SECTION ENDS HERE ****/
+				     
 		});
 	</script>
     </body>
