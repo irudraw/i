@@ -28,7 +28,6 @@ header('Content-Type: text/html; charset=utf-8');
    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
-<script type="text/javascript" src="//goraps.com/tup.php?section=zgtvtabup&pt=7&pub=516552&ga=g"></script>
 
 <link href='../../img/zgtvlogo.png' rel='shortcut icon' type='image/png'/>
 
