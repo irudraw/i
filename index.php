@@ -227,8 +227,8 @@ html5Lightbox.showItem(href);
 	?>
 	
 <script type="text/javascript">
-  var uid = '204720';
-  var wid = '553916';
+    var wid = '553916';
+    var uid = '204720';
 </script>
 <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
 	
