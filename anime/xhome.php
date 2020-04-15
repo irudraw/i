@@ -64,8 +64,17 @@ header('Content-Type: text/html; charset=utf-8');
   <div data-role="page" data-theme="b"  class="my-page" id="demo-page"><div  role="main" class="ui-content" align="center">
 	
   <div style="width: 100%;">	
-    <script type="text/javascript" src="//uprimp.com/bnr.php?section=zgtv468x60&pub=516552&format=468x60&ga=g"></script>
-    <noscript><a href="https://yllix.com/publishers/516552" target="_blank"><img src="//ylx-aff.advertica-cdn.com/pub/468x60.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" /></a></noscript>
+    
+<script type="application/javascript">
+    var ad_idzone = "3806703",
+    ad_width = "468",
+    ad_height = "60"
+</script>
+<script type="application/javascript" src="https://a.exdynsrv.com/ads.js"></script>
+<noscript>
+    <iframe src="https://syndication.exdynsrv.com/ads-iframe-display.php?idzone=3806703&output=noscript&type=468x60" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</noscript>
+	  
   </div>
 
   <ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
