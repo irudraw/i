@@ -72,16 +72,9 @@ var fq = '0';
 	<script>
 		var playerInstance = jwplayer("myElement");
 		playerInstance.setup({
-			title: "<?php echo $titulo ?>",
-			description: "http://zanime.herokuapp.com/",
-			sources: <?php echo $fdata ?>,
-			image: "",
-			width:"100%",
-			height:"100%",
-			autostart: "false",
-			floating: "true",
 			
-			/**** ADVERTISING SECTION STARTS HERE ****/
+			
+	/**** ADVERTISING SECTION STARTS HERE ****/
         advertising: {
             client: "vast",
             schedule: {
@@ -92,6 +85,18 @@ var fq = '0';
             }
         },
         /**** ADVERTISING SECTION ENDS HERE ****/
+			
+			
+			title: "<?php echo $titulo ?>",
+			description: "http://zanime.herokuapp.com/",
+			sources: <?php echo $fdata ?>,
+			image: "",
+			width:"100%",
+			height:"100%",
+			autostart: "false",
+			floating: "true",
+			
+			
 				     
 		});
 	</script>
