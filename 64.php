@@ -1,1 +1,1 @@
-<?php $filename = $_GET["V"]; echo base64_encode(file_get_contents("$filename")) ?>
+<?php $filename = $_GET["v"]; echo base64_encode(file_get_contents("$filename")) ?>
