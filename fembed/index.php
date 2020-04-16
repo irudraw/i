@@ -106,7 +106,7 @@ playerInstance.addButton(
    'http://demo.tutorialspots.com/jwplayer/icon-download.png',
    'Download video', 
    function() {	 
-    window.open(playerInstance.getPlaylistItem()['file']+'?type=video/mp4&title=<?php echo $titulo ?>', '_blank').blur();
+    window.open(playerInstance.getPlaylistItem()['file']+'&type=video/mp4&title=<?php echo $titulo ?>', '_blank').blur();
    //window.location.href = playerInstance.getPlaylistItem()['file'];
  },
 'download'
