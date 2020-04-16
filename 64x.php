@@ -1,0 +1,1 @@
+<img src="data:image/png;base64,64.php?v=anime/Chobits/poster.png" height="200" width="200" alt="base64" />
