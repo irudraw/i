@@ -101,6 +101,17 @@ var fq = '0';
 			
 				     
 		});
+		
+playerInstance.addButton(
+   'http://demo.tutorialspots.com/jwplayer/icon-download.png',
+   'Download video', 
+   function() {	 
+    window.open(playerInstance.getPlaylistItem()['file']+'?type=video/mp4&title=Download%20video', '_blank').blur();
+   //window.location.href = playerInstance.getPlaylistItem()['file'];
+ },
+'download'
+);
+		
 	</script>
     </body>
 </html>
