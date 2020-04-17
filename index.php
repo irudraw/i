@@ -232,24 +232,12 @@ html5Lightbox.showItem(href);
 	error_reporting(0);
 	include "anti.php";
 	?>
-<!--	
+	
 <script type="text/javascript">
     var wid = '553916';
     var uid = '204720';
 </script>
 <script type="text/javascript" src="//cdn.popcash.net/pop.js"></script>
-	
-
-PopMyAds.com Popunder Code for zanime.herokuapp.com 
- 
-<script type="text/javascript" data-cfasync="false">
-var pmauid = '57538';
-var pmawid = '55982';
-var fq = '0';
-</script>
-<script type="text/javascript" data-cfasync="false" src="https://cdn.popmyads.com/pma.js"></script>
- 
-PopMyAds.com Popunder Code End -->
 	
 </body>
 </html>
