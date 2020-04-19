@@ -140,8 +140,8 @@ html5Lightbox.showItem(href);
 	  
 <div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
 <h1>ZAnime</h1>
-<a href="#" data-icon="star" class="ui-btn-left" target="_blank">Info</a>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="star" class="ui-btn-right" target="_blank">Donar</a>
+<a href="#" data-icon="info" class="ui-btn-left" target="_blank">Info</a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right" target="_blank">Donar</a>
 </div>
 
   <!--
