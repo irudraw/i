@@ -12,6 +12,7 @@ header('Content-Type: text/html; charset=utf-8');
    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.5/listview-grid/listview-grid.css">
    <meta name="title" content="ZAnime Full Animes Videos Peliculas Gratis">
+   <meta name="keywords" content="video, animes, series, latino, español, castellano, idioma, audio, online, descargar, gratis, zanime">
 
 
 
@@ -19,7 +20,7 @@ header('Content-Type: text/html; charset=utf-8');
   <meta property="og:type"          content="video" />
   <meta property="og:title"         content="ZAnime Full Animes" />
   <meta property=”og:site_name”     content="ZAnime" />
-  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis, animes en idioma Español | Latino | Castellano" />
+  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis, animes en audio Español | Latino | Castellano" />
   <meta property="og:image"         content="poster.png" />
 
 
