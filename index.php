@@ -138,25 +138,10 @@ html5Lightbox.showItem(href);
   <div data-role="header" data-position="fixed" data-theme="b" align="center">
 	  
 	  
-  <!--<img src="img/banner.png" width="979" height="140"> -->
-
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <!-- <a class="navbar-brand" style="color:#00CC00">ZGTv.</a> -->
-      </div>
-    <!--   <ul class="nav navbar-nav">
-        <li class="active"><a href="http://video.zgrafic.com" target="_parent">Todos los Animes</a></li>
-
-        <li><a href="?a=estrenos" target="_parent">Animes en Estreno</a></li>
-       <li><a href="#">Link</a></li>
-
-      </ul>  -->
-  <!--    <a href="?a=estrenos" target="_parent"><button class="btn btn-danger navbar-btn">Animes en Estreno</button></a> -->
-    </div>
-  </nav>
-
-
+<div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
+<h1>ZAnime</h1>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="dollar" class="ui-btn-right" target="_blank">Donar</a>
+</div> 
 
   <!--
     <div data-role="navbar">
