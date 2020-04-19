@@ -87,6 +87,16 @@ html5Lightbox.showItem(href);
 
 <body oncontextmenu="return false">
 <div data-role="page" data-theme="b"  class="my-page" id="demo-page">
+	
+<div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
+<h1>ZAnime</h1>
+<a href="#popupVideo" data-rel="popup" data-position-to="window" data-icon="info" class="ui-btn-left">Info</a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right" target="_blank">Donar</a>
+<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content">
+<p>ZAnime © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores - Todo el contenido es tomado de internet.</p>
+</div>
+</div>
+
 <div  role="main" class="ui-content" align="center">
 	
 	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
@@ -133,19 +143,6 @@ html5Lightbox.showItem(href);
   }
   </script>
   </ul>
-	
-	
-  <div data-role="header" data-position="fixed" data-theme="b" align="center">
-	  
-	  
-<div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
-<h1>ZAnime</h1>
-<a href="#popupVideo" data-rel="popup" data-position-to="window" data-icon="info" class="ui-btn-left">Info</a>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right" target="_blank">Donar</a>
-<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content">
-<p>ZAnime © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores - Todo el contenido es tomado de internet.</p>
-</div>
-</div>
 
   <!--
     <div data-role="navbar">
