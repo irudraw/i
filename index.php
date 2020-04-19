@@ -12,13 +12,15 @@
    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.5/listview-grid/listview-grid.css">
    <link href='img/zgtvlogo.png' rel='image_src'/>
    <meta name="title" content="ZAnime Full Animes en idioma latino, español, castellano ">
+   <meta name="keywords" content="video, animes, series, latino, español, castellano, idioma, audio, online, descargar, gratis, zanime">
 
    <script src="live.js"></script>
 
   <meta property="og:url"           content="https://zanime.herokuapp.com/"/>
-  <meta property="og:type"          content="ZAnime" />
+  <meta property="og:type"          content="video" />
   <meta property="og:title"         content="ZAnime Full Animes en idioma latino, español, castellano" />
-  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis" />
+  <meta property=”og:site_name”     content="ZAnime" />
+  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis, animes en audio Español | Latino | Castellano" />
   <meta property="og:image"         content="img/zgtvlogo.png" />
 
 
