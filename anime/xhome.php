@@ -54,7 +54,7 @@ header('Content-Type: text/html; charset=utf-8');
 	@media (min-width:801px)  { 
 		#contenedor { 
 			width: 450px; 
-			height: 280px; 
+			height: 275px; 
 		} 
 	} 
 </style>
