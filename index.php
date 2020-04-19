@@ -53,7 +53,6 @@ html5Lightbox.showItem(href);
     });
     FB.AppEvents.logPageView();
   };
-
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
@@ -86,19 +85,8 @@ html5Lightbox.showItem(href);
     </style>
 
 <body oncontextmenu="return false">
-<div data-role="page" data-theme="b" class="jqm-demos" id="panel-fixed-page1" data-title="Panel fixed positioning" data-url="panel-fixed-page1">
-
-<div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
-<h1>ZAnime</h1>
-<a href="#popupVideo" data-rel="popup" data-position-to="window" data-icon="info" class="ui-btn-left">Info</a>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right" target="_blank">Donar</a>
-<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content">
-<p>ZAnime © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores - Todo el contenido es tomado de internet.</p>
-</div>
-</div>
-	
-	
-<div  role="main" class="ui-content jqm-content jqm-fullwidth" align="center">
+<div data-role="page" data-theme="b"  class="my-page" id="demo-page">
+<div  role="main" class="ui-content" align="center">
 	
 	<ul data-role="listview" data-inset="true" data-filter="true" data-input="#myFilter">
 	<script>
@@ -144,22 +132,31 @@ html5Lightbox.showItem(href);
   }
   </script>
   </ul>
-
+	
+	
+  <div data-role="header" data-position="fixed" data-theme="b" align="center">
+	  
+	  
+<div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
+<h1>ZAnime</h1>
+<a href="#popupVideo" data-rel="popup" data-position-to="window" data-icon="info" class="ui-btn-left">Info</a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right">Donar</a>
+<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content">
+<p>ZAnime © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores - Todo el contenido es tomado de internet.</p>
+</div>
+</div>
 
   <!--
     <div data-role="navbar">
-
-
 <div data-role="footer">
-    <div data-role="navbar" data-iconpos="left">
-        <ul>
-            <li><a href="#" data-icon="grid">Summary</a></li>
-            <li><a href="#" data-icon="star" class="ui-btn-active">Favs</a></li>
-            <li><a href="#" data-icon="gear">Setup</a></li>
-        </ul>
-    </div>
+    <div data-role="navbar" data-iconpos="left">
+        <ul>
+            <li><a href="#" data-icon="grid">Summary</a></li>
+            <li><a href="#" data-icon="star" class="ui-btn-active">Favs</a></li>
+            <li><a href="#" data-icon="gear">Setup</a></li>
+        </ul>
+    </div>
 </div>
-
     </div>
   -->
    </div>
@@ -169,10 +166,9 @@ html5Lightbox.showItem(href);
   
 
   
+
+
 </div>
-
-
-
 
 
 
@@ -193,10 +189,7 @@ html5Lightbox.showItem(href);
   js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
 <div class="fb-share-button" data-href="https://zanime.herokuapp.com/" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" href="#" onClick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://zanime.herokuapp.com/&amp;src=sdkpreparse','','top=300,left=300,width=300,height=300')"><img src="img/fb_share.png" /></a></div>
-
-
     </td>-->
   </tr>
 </table>
@@ -214,6 +207,7 @@ html5Lightbox.showItem(href);
 </div>
 </div>
 </div>
+
 	
 	<link rel="stylesheet" href="anti/anti.css"/>
 	<link rel="stylesheet" href="anti/animate.min.css"/>
