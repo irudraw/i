@@ -11,7 +11,6 @@ header('Content-Type: text/html; charset=utf-8');
 <meta charset="utf-8">
    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
    <link rel="stylesheet" href="https://demos.jquerymobile.com/1.4.5/listview-grid/listview-grid.css">
-   <link href='img/zgtvlogo.png' rel='image_src'/>
    <meta name="title" content="ZAnime Full Animes Videos Peliculas Gratis">
 
 
