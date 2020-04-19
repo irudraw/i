@@ -167,7 +167,8 @@ html5Lightbox.showItem(href);
   
 
   
-
+</div>
+</div>
 
 </div>
 
@@ -209,8 +210,7 @@ html5Lightbox.showItem(href);
 </noscript>
 
 </div>
-</div>
-</div>
+
 
 	
 	<link rel="stylesheet" href="anti/anti.css"/>
