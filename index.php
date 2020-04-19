@@ -133,7 +133,7 @@ html5Lightbox.showItem(href);
   </script>
   </ul>
 	
-	
+<div>	
   <div data-role="header" data-position="fixed" data-theme="b" align="center">
 	  
 <!--	  
