@@ -20,7 +20,7 @@ header('Content-Type: text/html; charset=utf-8');
   <meta property="og:type"          content="video" />
   <meta property="og:title"         content="ZAnime Full Animes" />
   <meta property=”og:site_name”     content="ZAnime" />
-  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis" />
+  <meta property="og:description"   content="ZAnime es una web es la que podras disfrutar del contenido completamente Gratis, animes en idioma Español | Latino | Castellano" />
   <meta property="og:image"         content="poster.png" />
 
 
