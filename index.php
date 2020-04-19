@@ -140,8 +140,11 @@ html5Lightbox.showItem(href);
 	  
 <div data-role="header" data-position="fixed" data-theme="b" style="overflow:hidden;">
 <h1>ZAnime</h1>
-<a href="#" data-icon="info" class="ui-btn-left" target="_blank">Info</a>
+<a href="#popupVideo" data-rel="popup" data-position-to="window" data-icon="info" class="ui-btn-left" target="_blank">Info</a>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right" target="_blank">Donar</a>
+<div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content">
+<p>ZAnime © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores - Todo el contenido es tomado de internet.</p>
+</div>
 </div>
 
   <!--
