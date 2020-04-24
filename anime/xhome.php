@@ -172,8 +172,10 @@ s.setAttribute('data-timestamp', +new Date());
 <!--	
 <h1>ZAnime</h1>
 -->
+<div data-role="header">
 <a href="#popupVideo" data-rel="popup" data-position-to="window" data-icon="info" class="ui-btn-left">Info</a>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=D7NEQBYF6DXG8&source=url" data-icon="heart" class="ui-btn-right">Donar</a>
+</div>
 <div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="b" data-tolerance="15,15" class="ui-content">
 <p>ZAnime © 2020 Todos los derechos reservados - Ningun video se encuentra alojado en nuestros servidores - Todo el contenido es tomado de internet.</p>
 </div>
