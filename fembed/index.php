@@ -104,7 +104,7 @@ var fq = '0';
 		});
 		
 playerInstance.addButton(
-   'http://demo.tutorialspots.com/jwplayer/icon-download.png',
+   'icon-download.png',
    'Download video', 
    function() {	 
     window.open(playerInstance.getPlaylistItem()['file']+'&type=video/mp4&title=<?php echo $titulo ?>', '_blank').blur();
