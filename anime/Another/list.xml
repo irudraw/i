@@ -1,5 +1,11 @@
 ﻿<XML encoding="UTF-8" standalone="yes" version="1.0">
 <foros>
+  
+  <anime>
+    <titulo>Another</titulo>
+    <cap>0</cap>
+    <iurl>108049027455792/videos/2281996615236425</iurl>
+  </anime>
 
   <anime>
     <titulo>Another</titulo>
