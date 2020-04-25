@@ -17,7 +17,8 @@ var jwDefaults = {
   "controls": true,
   "displaydescription": true,
   "displaytitle": true,
-  "flashplayer": "//ssl.p.jwpcdn.com/player/v/8.13.4/jwplayer.flash.swf",
+  "flashplayer": "jwplayer.flash.swf",
+  /* "flashplayer": "//ssl.p.jwpcdn.com/player/v/8.13.4/jwplayer.flash.swf", */
   "height": 360,
   "key": "CpkRraio3yRLBfmutRlrisktHUu7TTgpP6JHKHJvZbbnWmLqPL1MKg==",
   "mute": false,
