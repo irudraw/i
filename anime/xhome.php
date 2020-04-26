@@ -109,7 +109,7 @@ header('Content-Type: text/html; charset=utf-8');
   	  iurl=foros[i].getElementsByTagName("iurl")[0].childNodes[0].nodeValue
 
   	  document.write("<li>");
-  	  document.write("<a href='https://zgrafic.com/code/video/?id="+iurl+"&titulo="+titulo+"+"+cap+"' target='contenedor' onclick='window.location.href=");
+  		document.write("<a href='../../fembed/?id="+iurl+"&titulo="+titulo+"+"+cap+"' target='contenedor' onclick='window.location.href=");
       //document.write('"#"');
       document.write('"#');
       document.write(i);
@@ -208,7 +208,7 @@ s.setAttribute('data-timestamp', +new Date());
         var b = xmlDoc.getElementsByTagName('cap')[xd];
 	      var c = b.childNodes[0];
 	    
-        document.getElementById("contenedor").src = 'https://zgrafic.com/code/video/?id='+y.nodeValue+'&titulo='+n.nodeValue+' '+c.nodeValue;
+        document.getElementById("contenedor").src = '../../fembed/?id='+y.nodeValue+'&titulo='+n.nodeValue+' '+c.nodeValue;
 
         //y.nodeValue;
     }
