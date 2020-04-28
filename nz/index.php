@@ -8,7 +8,6 @@ require_once('core/inter.php');
 	<!-- Chang URLs to wherever Video.js files will be hosted -->
 	<link href="video-js/video-js.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="video-js/src/videojs.logobrand.css">
-
 	
 	<!-- video.js must be in the <head> for older IEs to work. -->
 	<script type="text/javascript" src="video-js/video.js"></script>
@@ -21,6 +20,18 @@ videojs.options.flash.swf = "video-js/video-js.swf";
     width: 100% !important;
     height: 100% !important;}
 </style>
+
+<!-- PopMyAds.com Popunder Code for zanime.herokuapp.com -->
+ 
+<script type="text/javascript" data-cfasync="false">
+var pmauid = '57538';
+var pmawid = '55982';
+var fq = '0';
+</script>
+<script type="text/javascript" data-cfasync="false" src="https://cdn.popmyads.com/pma.js"></script>
+ 
+<!-- PopMyAds.com Popunder Code End -->
+
 </head>
 <body style="background:black; margin:0; border:0; padding:0;">
 <video id="video" class="video-js vjs-default-skin vjs-big-play-centered vjs-controls-enabled" controls 
