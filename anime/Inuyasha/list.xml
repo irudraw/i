@@ -795,7 +795,7 @@
 
   <anime>
     <titulo>Inuyasha</titulo>
-    <cap>133-134</cap>
+    <cap>133 134</cap>
     <iurl>501848576943390/videos/2834002120009348</iurl>
   </anime>
 
@@ -873,7 +873,7 @@
 
   <anime>
     <titulo>Inuyasha</titulo>
-    <cap>147-148</cap>
+    <cap>147 148</cap>
     <iurl>501848576943390/videos/949348922163580</iurl>
   </anime>
 
@@ -953,6 +953,7 @@
     <titulo>Inuyasha</titulo>
     <cap>161</cap>
     <iurl>501848576943390/videos/1543865209123507</iurl>
+  </anime>
   
   <anime>
     <titulo>Inuyasha</titulo>
@@ -980,7 +981,7 @@
 
   <anime>
     <titulo>Inuyasha</titulo>
-    <cap>166-167</cap>
+    <cap>166 167</cap>
     <iurl>501848576943390/videos/897226984060238</iurl>
   </anime>
 
@@ -1140,19 +1141,19 @@
     <iurl>501848576943390/videos/262453684929660</iurl>
   </anime>
 
-    <anime>
+  <anime>
     <titulo>Inuyasha</titulo>
     <cap>Pelicula 1</cap>
     <iurl>501848576943390/videos/159343865373323</iurl>
   </anime>
 
-    <anime>
+  <anime>
     <titulo>Inuyasha</titulo>
     <cap>Pelicula 2</cap>
     <iurl>501848576943390/videos/434514730719845</iurl>
   </anime>
 
-    <anime>
+  <anime>
     <titulo>Inuyasha</titulo>
     <cap>Pelicula 3</cap>
     <iurl>501848576943390/videos/230071744766135</iurl>
