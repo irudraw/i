@@ -11,7 +11,7 @@ header ("content-type: text/xml");
       {
            while (($archivo = readdir($gd)) !== false)
          {
-            if ($archivo != "." & $archivo != ".." & $archivo != "list.php" & $archivo != "Haruhi Suzumiya - falta" & $archivo != "Angel Beats" & $archivo != "School Days" & $archivo != "Trinity Seven" & $archivo != "Magikano" & $archivo != "Magi Sinbad no Bouken" & $archivo != "Made in Abyss" & $archivo != "Kakegurui" & $archivo != "Inuyasha" & $archivo != "Sword Art Online")
+            if ($archivo != "." & $archivo != ".." & $archivo != "list.php" & $archivo != "Haruhi Suzumiya - falta" & $archivo != "Angel Beats" & $archivo != "School Days" & $archivo != "Trinity Seven" & $archivo != "Magikano" & $archivo != "Made in Abyss" & $archivo != "Kakegurui" & $archivo != "Inuyasha" & $archivo != "Sword Art Online")
             {
                if (is_dir($archivo))
                {
