@@ -25,17 +25,8 @@
 	    <![endif]-->
 	</head>
 	<body>
-<div id="myElement"></div>
-    <script src="https://content.jwplatform.com/libraries/DbXZPMBQ.js"></script>
-	<script>
-		var playerInstance = jwplayer("myElement");
-		playerInstance.setup({
-			sources: <?php echo $fdata ?>,
-			image: "",
-			width:"100%",
-			height:"100%",
-			autostart: "false",
-		});
-	</script>
+
+			<?php echo $fdata ?>,
+
     </body>
 </html>
