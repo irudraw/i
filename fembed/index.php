@@ -62,7 +62,6 @@ var fq = '0';
 	    <![endif]-->
 	</head>
 	<body>
-<?php echo $fdata ?>
 
 <div id="myElement"></div>
 <div align="center"> <font size="2" color="white"><?php echo $titulo ?></font> </div>
